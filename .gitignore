@@ -1,0 +1,3 @@
+jettons/settings/dev.py
+jettons/settings/prod.py
+*.log
