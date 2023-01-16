@@ -139,12 +139,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-DEFAULT_FILE_STORAGE = "cloudflare_images.storage.CloudflareImagesStorage"
-CLOUDFLARE_IMAGES_ACCOUNT_ID = "e1ba1eb70cc0b71b69e94efdc35b18fe"
-CLOUDFLARE_IMAGES_API_TOKEN = "NZuPHcaB4-Qua6D7jW4JofvejYiSKurQVNdR_9p-"
-CLOUDFLARE_IMAGES_ACCOUNT_HASH = "h8TcFT5y1SkJuMWUFwUfRA"
-CLOUDFLARE_IMAGES_DOMAIN = "cdn.openbillbox.com"
-
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
